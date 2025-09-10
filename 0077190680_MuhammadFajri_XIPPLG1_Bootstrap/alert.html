@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membuat Alert</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f6fa;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 40px;
+      max-width: 700px;
+    }
+    .alert {
+      font-size: 18px;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    .alert-custom {
+      background-color: #6f42c1;
+      color: #fff;
+    }
+    .alert i {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="alert alert-success alert-dismissible fade show">
+      <i class="bi bi-check-circle-fill"></i>
+      Ini contoh alert success dengan tombol close!
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <div class="alert alert-danger">
+      <i class="bi bi-exclamation-triangle-fill"></i>
+      Ini contoh alert danger dengan ikon!
+    </div>
+
+    <div class="alert alert-warning">
+      <i class="bi bi-exclamation-circle-fill"></i>
+      Ini contoh alert warning!
+    </div>
+
+    <div class="alert alert-info">
+      <i class="bi bi-info-circle-fill"></i>
+      Ini contoh alert info!
+    </div>
+
+    <div class="alert alert-dark">
+      <i class="bi bi-shield-lock-fill"></i>
+      Ini contoh alert dark!
+    </div>
+
+    <div class="alert alert-custom">
+      <i class="bi bi-star-fill"></i>
+      Ini contoh alert dengan warna custom (ungu)!
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

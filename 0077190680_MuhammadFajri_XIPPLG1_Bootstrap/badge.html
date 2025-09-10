@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membuat Badge</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+
+    body {
+      background-color: #f0f2f5;
+    }
+    .container {
+      margin-top: 40px;
+      text-align: center; 
+    }
+    .badge {
+      font-size: 18px;
+      padding: 10px 14px; 
+    }
+    .btn {
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 20px;
+      padding: 10px 20px;
+    }
+    .bg-custom-purple {
+      background-color: #6f42c1;
+      color: #fff;
+    }
+    .bg-custom-orange {
+      background-color: #fd7e14;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge bg-custom-purple">Purple</span>
+    <span class="badge bg-custom-orange">Orange</span>
+
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+  </div>
+
+  <hr>
+
+  <div class="text-center">
+    <button class="btn btn-primary">
+      Pemberitahuan <span class="badge bg-danger">5</span>
+    </button>
+    <button class="btn btn-success">
+      Pendaftar <span class="badge rounded-pill bg-primary">115</span>
+    </button>
+  </div>
+
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
